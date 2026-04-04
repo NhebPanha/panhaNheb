@@ -1,3 +1,3 @@
 <template>
-  <Hero />
+  <HeroSection />
 </template>
