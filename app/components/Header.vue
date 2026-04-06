@@ -27,7 +27,7 @@
       <div class="flex items-center gap-4">
         <!-- 🌙 Dark Mode Toggle -->
         <button @click="toggleDark"
-          class="px-2 py-1 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors center">
+          class="transition-colors center">
           <span class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors">
             {{ isDark ? 'light_mode' : 'dark_mode' }}
           </span>
