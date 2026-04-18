@@ -1,75 +1,99 @@
-# Nuxt Minimal Starter
+<!-- 🔥 Animated Header -->
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## 👨‍💻 About Me
 
-## Setup
+Hello! I'm a passionate developer who loves building modern applications using **Nuxt, Flutter, and modern web technologies**.
 
-Make sure to install dependencies:
+* 💡 I enjoy solving real-world problems
+* 🎨 Focused on clean UI/UX
+* 🚀 Always learning new technologies
+
+---
+
+## 🛠️ Tech Stack
+
+![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge\&logo=nuxtdotjs\&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge\&logo=flutter\&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue-4FC08D?style=for-the-badge\&logo=vue.js\&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge\&logo=dart\&logoColor=white)
+
+---
+
+## 🚀 Projects
+
+### 🛒 E-Commerce App
+
+* Flutter + API integration
+* Cart & Checkout system
+* Clean UI design
+
+### 📦 Logistics App
+
+* Order tracking system
+* Real-time updates
+* Delivery UI
+
+### 💰 Wallet App
+
+* Transaction history
+* Balance dashboard
+* Modern UI
+
+---
+
+## 🎬 Portfolio Preview
+
+<p align="center">
+  <img src="./public/demo.gif" width="700" alt="Portfolio Demo"/>
+</p>
+
+---
+
+## 🌐 Live Demo
+
+👉 https://your-portfolio-link.com
+
+---
+
+## ⚙️ Setup
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+---
 
-Build the application for production:
+## 📊 GitHub Stats
 
-```bash
-# npm
-npm run build
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" />
+</p>
 
-# pnpm
-pnpm build
+---
 
-# yarn
-yarn build
+## 👀 Visitor Counter
 
-# bun
-bun run build
-```
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge&color=blue" />
+</p>
 
-Locally preview production build:
+---
 
-```bash
-# npm
-npm run preview
+## 📫 Contact Me
 
-# pnpm
-pnpm preview
+* 📧 Email: [nhebpanha78@gmail.com](nhebpanha78@gmail.com)
+* 💼 LinkedIn: https://linkedin.com/in/nhebpanha
+* 🌍 Portfolio: https://nheb-panha.vercel.app/
 
-# yarn
-yarn preview
+---
 
-# bun
-bun run preview
-```
+## ⭐ Support
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+If you like this project, give it a ⭐ on GitHub!
+
+---
+
+<!-- 🔻 Footer -->
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2575fc,100:6a11cb&height=120&section=footer"/>
