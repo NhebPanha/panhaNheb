@@ -9,7 +9,7 @@
       </div>
       <div class="particles"></div>
       <!-- Content -->
-      <div class="max-w-7xl mx-auto px-8 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center color-black">
+      <div class="max-w-7xl mx-auto px-4 md:px-8 w-full grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 items-center">
 
         <!-- Hero Content -->
         <div class="lg:col-span-7 z-10">
@@ -18,7 +18,7 @@
             Digital Craftsman // v2.0
           </div>
 
-          <h1 class="text-6xl md:text-8xl font-black leading-[0.9] mb-8">
+          <h1 class="text-5xl md:text-7xl lg:text-8xl font-black leading-[0.9] mb-8 mt-4 md:mt-0">
             NHEB
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-pink-500">
               Panha
@@ -47,8 +47,8 @@
           </div>
         </div>
         <!-- Profile Image -->
-        <div class="lg:col-span-5 relative flex justify-center lg:justify-end">
-          <div class="relative w-80 h-80 md:w-96 md:h-96">
+        <div class="lg:col-span-5 relative flex justify-center lg:justify-end mt-12 lg:mt-0">
+          <div class="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
 
             <div class="ring ring-1"></div>
             <div class="ring ring-2"></div>
@@ -190,6 +190,10 @@ onMounted(() => {
   border: 4px solid #111;
   position: relative;
   z-index: 10;
+}
+
+.dark .profile-img {
+  border-color: #f5f5f5;
 }
 
 .ring {

@@ -1,7 +1,7 @@
 <template>
     <div class="bg-background text-on-background font-body min-h-screen transition-colors duration-500">
-        <section class="pt-32 pb-24 max-w-7xl mx-auto px-8">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        <section class="pt-24 md:pt-32 pb-16 md:pb-24 max-w-7xl mx-auto px-4 md:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12">
 
                 <!-- Left Panel -->
                 <div class="lg:col-span-4 sticky top-32 h-fit">
@@ -9,7 +9,7 @@
                         Professional Journey
                     </span>
 
-                    <h2 class="font-headline text-5xl font-black tracking-tighter leading-none mb-8">
+                    <h2 class="font-headline text-4xl md:text-5xl font-black tracking-tighter leading-none mb-8">
                         The <span class="text-secondary-fixed-dim">Architectural</span><br />
                         Timeline
                     </h2>
@@ -61,11 +61,11 @@
         </section>
 
         <!-- ================= CONTACT ================= -->
-        <section class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start pb-24 max-w-7xl mx-auto px-8">
+        <section class="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 items-start pb-16 md:pb-24 max-w-7xl mx-auto px-4 md:px-8">
 
             <!-- Left Contact Info -->
             <div class="lg:col-span-5">
-                <h2 class="font-headline text-5xl font-black tracking-tighter mb-12">
+                <h2 class="font-headline text-4xl md:text-5xl font-black tracking-tighter mb-12">
                     Establish <br />
                     <span class="text-tertiary">Connectivity</span>
                 </h2>
@@ -104,8 +104,9 @@
                         <textarea v-model="form.message" rows="4" placeholder="Your message..."
                             class="input-style resize-none"></textarea>
 
-                        <button
-                            class="bg-on-surface text-white px-12 py-4 uppercase text-xs tracking-widest hover:shadow-lg transition-shadow duration-300">
+                        <button class="bg-black text-white px-8 md:px-12 py-4 uppercase text-xs tracking-widest w-full md:w-auto
+         hover:shadow-lg transition-shadow duration-300
+         dark:bg-white dark:text-black">
                             Send Message
                         </button>
                     </form>
