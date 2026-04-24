@@ -104,9 +104,9 @@
                         <textarea v-model="form.message" rows="4" placeholder="Your message..."
                             class="input-style resize-none"></textarea>
 
-                        <button class="bg-black text-white px-8 md:px-12 py-4 uppercase text-xs tracking-widest w-full md:w-auto
+                        <button class="bg-white text-black border border-gray-200 px-8 md:px-12 py-4 uppercase text-xs tracking-widest w-full md:w-auto
          hover:shadow-lg transition-shadow duration-300
-         dark:bg-white dark:text-black">
+         dark:bg-black dark:text-white dark:border-gray-800">
                             Send Message
                         </button>
                     </form>

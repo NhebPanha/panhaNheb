@@ -1,6 +1,11 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-04', // Fixes the WARN in your terminal
   modules: ['@nuxtjs/tailwindcss'],
+  tailwindcss: {
+    config: {
+      darkMode: 'class',
+    }
+  },
   css: ['~/assets/css/main.css'],
   app: {
     head: {
