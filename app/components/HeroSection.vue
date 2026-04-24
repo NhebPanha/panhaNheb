@@ -38,7 +38,7 @@
 
           <div class="flex flex-wrap gap-6">
             <button class="btn-primary">
-              View Projects →
+              View My Work
             </button>
 
             <button class="btn-outline">
@@ -60,8 +60,6 @@
             <div class="profile-img">
               <img src="/image/panha_profile.png" class="object-cover" />
             </div>
-
-
 
           </div>
         </div>
