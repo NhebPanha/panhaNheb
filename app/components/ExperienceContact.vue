@@ -61,7 +61,8 @@
         </section>
 
         <!-- ================= CONTACT ================= -->
-        <section id="contact" class="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 items-start pb-16 md:pb-24 max-w-7xl mx-auto px-4 md:px-8">
+        <section id="contact"
+            class="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 items-start pb-16 md:pb-24 max-w-7xl mx-auto px-4 md:px-8">
 
             <!-- Left Contact Info -->
             <div class="lg:col-span-5">

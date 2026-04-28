@@ -1,7 +1,9 @@
 <template>
   <Header />
   <HeroSection />
-  <ExperienceContact />
+  <About />
   <Portfolio />
+  <Skills />
+  <ExperienceContact />
   <Footer />
 </template>
