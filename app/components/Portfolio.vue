@@ -10,7 +10,8 @@
                         IDENTIFICATION: ARCHITECT_01
                     </span>
 
-                    <h1 class="font-headline text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9] mb-8">
+                    <h1
+                        class="font-headline text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-[0.9] mb-8">
                         Crafting <span class="text-secondary">Digital</span><br />
                         Refraction.
                     </h1>

@@ -2,9 +2,6 @@
 </script>
 <template>
   <Header />
-  <HeroSection />
-  <ExperienceContact />
-  <Portfolio />
+  <slot />
   <Footer />
-  <test />
 </template>
