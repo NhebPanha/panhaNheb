@@ -3,7 +3,7 @@
         <!-- Main -->
         <main class="pt-24 md:pt-32 pb-16 md:pb-24 px-4 md:px-8 max-w-7xl mx-auto">
             <!-- Hero -->
-            <section id="about" class="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 mb-16 md:mb-32 items-end">
+            <section class="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12 mb-16 md:mb-32 items-end">
 
                 <div class="lg:col-span-8">
                     <span class="font-label text-xs tracking-[0.2em] text-tertiary mb-4 block">
@@ -61,7 +61,7 @@
                 </div>
 
                 <!-- Skills -->
-                <div id="skills" class="md:col-span-4 lg:col-span-5 flex flex-col gap-6">
+                <div class="md:col-span-4 lg:col-span-5 flex flex-col gap-6">
 
                     <!-- Frontend -->
                     <div class="glass-panel p-8 rounded-xl power-rail-cyan">

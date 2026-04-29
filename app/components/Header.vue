@@ -74,8 +74,8 @@ const navLinks = ref([
   { name: 'Hero', href: '#hero', active: true },
   { name: 'About', href: '#about', active: false },
   { name: 'Projects', href: '#projects', active: false },
-  { name: 'Experience', href: '#experience', active: false },
   { name: 'Skills', href: '#skills', active: false },
+  { name: 'Experience', href: '#experience', active: false },
   { name: 'Contact', href: '#contact', active: false }
 ]);
 
@@ -94,13 +94,20 @@ const scrollToSection = (e, href) => {
 const handleScroll = () => {
   const scrollPosition = window.scrollY + 150; // offset for header
 
+  // Check if at the bottom of the page
+  const isBottom = (window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - 50;
+
   let currentSection = '#hero';
   
-  for (const link of navLinks.value) {
-    const section = document.querySelector(link.href);
-    if (section) {
-      if (section.offsetTop <= scrollPosition) {
-        currentSection = link.href;
+  if (isBottom) {
+    currentSection = '#contact';
+  } else {
+    for (const link of navLinks.value) {
+      const section = document.querySelector(link.href);
+      if (section) {
+        if (section.offsetTop <= scrollPosition) {
+          currentSection = link.href;
+        }
       }
     }
   }
