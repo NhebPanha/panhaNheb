@@ -9,10 +9,9 @@ export default defineNuxtConfig({
   },
   css: ['~/assets/css/main.css'],
   runtimeConfig: {
-    telegramBotToken: '', // Default value, will be overridden by NUXT_TELEGRAM_BOT_TOKEN
-    telegramChatId: '',   // Default value, will be overridden by NUXT_TELEGRAM_CHAT_ID
     public: {
-      // Add other public variables here if needed
+      telegramBotToken: process.env.NUXT_TELEGRAM_BOT_TOKEN,
+      telegramChatId: process.env.NUXT_TELEGRAM_CHAT_ID,
     }
   },
   app: {
@@ -24,7 +23,7 @@ export default defineNuxtConfig({
         },
         {
           rel: 'icon',
-          type: 'image/png',   // ✅ add this
+          type: 'image/png',
           href: '/logo_test.png'
         }
       ]

@@ -1,10 +1,11 @@
-import { execSync } from 'child_process';
-
 export default defineEventHandler(async (event) => {
-  const config = useRuntimeConfig();
+  const config = useRuntimeConfig().public;
   const body = await readBody(event);
 
+  console.log("bot token: ", config.telegramBotToken);
+
   if (!config.telegramBotToken || config.telegramBotToken === '') {
+
     throw createError({
       statusCode: 500,
       statusMessage: 'Telegram Bot Token is not configured. Please add NUXT_TELEGRAM_BOT_TOKEN to your .env file.',
@@ -35,8 +36,6 @@ export default defineEventHandler(async (event) => {
 
     // Run curl (on Windows, we use double quotes for the -d payload and escape internal quotes)
     const command = `curl -X POST "${url}" -H "Content-Type: application/json" -d ${JSON.stringify(payload)}`;
-
-    execSync(command);
 
     return { success: true };
   } catch (error) {
